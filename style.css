@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar Drop Down start */
+.mainContent {
+  display: inline;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 120px;
+  display: none;
+  padding: 20px 0px;
+  height: auto;
+}
+
+.content a {
+  background: rgb(6, 6, 6);
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 5px 10px;
+  margin: 0px 10px;
+}
+
+.content a:hover {
+  background: rgb(54, 54, 54);
+  color: white;
+}
+
+.mainContent:hover .content {
+  display: block;
+}
+
+/* 2 */
+.secondMainContent {
+  display: inline;
+  position: relative;
+  background: rgb(196, 193, 193);
+}
+
+.secondContent {
+  position: absolute;
+  top: -7px;
+  left: 100px;
+  width: 130px;
+  display: none;
+  padding: 10px 0px;
+  height: auto;
+}
+
+.secondContent a {
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 5px 10px;
+  margin: 0px 10px;
+}
+
+.secondMainContent:hover .secondContent {
+  display: block;
+}
+/* Navbar Drop Down end */
