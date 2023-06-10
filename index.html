@@ -113,12 +113,12 @@
             class="max-[767px]:bg-gray-100 max-[768px]:pb-4 max-[768px]:pt-4 max-[768px]:pl-4 max-[768px]:flex max-[768px]:justify-start max-[767px]:flex-col gap-3 max-[768px]:w-full max-[768px]:text-center justify-start max-[425px]:pb-4 mr-4 z-[1] md:static absolute w-full left-0 opacity-0 md:opacity-100 top-[-400px] transition-all ease-in-out duration-1000">
             <a
               href="#"
-              class="border-2 border-[#EEAC06] max-[768px]:w-[150px] hover:border-[#316AFF] hover:bg-[#316AFF] hover:text-white px-8 py-[6px] text-lg font-bold rounded-full max-[1024px]:text-sm max-[1024px]:font-semibold max-[1024px]:px-4 max-[1024px]:py-2 max-[768px]:py-1"
+              class="border-2 border-[#EEAC06] duration-500 max-[768px]:w-[150px] hover:border-[#316AFF] hover:bg-[#316AFF] hover:text-white px-8 py-[6px] text-lg font-bold rounded-full max-[1024px]:text-sm max-[1024px]:font-semibold max-[1024px]:px-4 max-[1024px]:py-2 max-[768px]:py-1"
               >Log In</a
             >
             <a
               href="#"
-              class="bg-[#316AFF] hover:bg-[#093bbb] max-[768px]:w-[150px] text-white px-8 py-2 text-lg font-bold rounded-full max-[1024px]:text-sm max-[1024px]:font-semibold max-[1024px]:px-4 max-[1024px]:py-1"
+              class="bg-[#316AFF] duration-500 hover:bg-[#093bbb] max-[768px]:w-[150px] text-white px-8 py-2 text-lg font-bold rounded-full max-[1024px]:text-sm max-[1024px]:font-semibold max-[1024px]:px-4 max-[1024px]:py-1"
               >Contact Us</a
             >
           </p>
@@ -239,12 +239,12 @@
                 </p>
                 <div class="flex items-center justify-center">
                   <button
-                    class="bg-[#FFCA43] py-3 px-8 rounded-full text-lg font-semibold mr-4">
+                    class="bg-[#FFCA43] duration-500 hover:bg-[#efbc3c] py-3 px-8 rounded-full text-lg font-semibold mr-4">
                     Explore Courses
                   </button>
                   <a
                     href="https://www.youtube.com/watch?v=X-D-AS87q8I"
-                    class="h-[58px] w-[58px] rounded-full bg-[#316AFF] flex justify-center items-center"
+                    class="h-[58px] w-[58px] rounded-full duration-500 bg-[#316AFF] hover:bg-[#1751e6] flex justify-center items-center"
                     target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -780,11 +780,11 @@
               </p>
               <div class="max-[425px]:flex">
                 <button
-                  class="bg-[#FFCA43] max-[425px]:ml-5 hover:bg-[#f7bf30] max-[425px]:text-sm max-[425px]:px-4 max-[425px]:py-0 py-3 px-8 rounded-full text-lg font-semibold mr-4">
+                  class="bg-[#FFCA43] duration-500 max-[425px]:ml-5 hover:bg-[#f7bf30] max-[425px]:text-sm max-[425px]:px-4 max-[425px]:py-0 py-3 px-8 rounded-full text-lg font-semibold mr-4">
                   Become An Instructor
                 </button>
                 <button
-                  class="border-2 py-3 hover:border-[#FFCA43] duration-700 max-[425px]:text-sm max-[425px]:px-4 max-[425px]:py-0 hover:bg-[#FFCA43] hover:text-white px-8 rounded-full text-lg font-semibold mr-4">
+                  class="border-2 py-3 hover:border-[#FFCA43] duration-500 max-[425px]:text-sm max-[425px]:px-4 max-[425px]:py-0 hover:bg-[#FFCA43] hover:text-white px-8 rounded-full text-lg font-semibold mr-4">
                   Browse Instructors
                 </button>
               </div>
@@ -797,10 +797,13 @@
       <!-- FIND SUBJECT section start  -->
       <section>
         <div class="container">
-          <div class="my-10">
+          <div class="my-20">
             <!-- section 1  -->
             <div class="max-[425px]:mt-20">
-              <p class="flex justify-center">FIND SUBJECT</p>
+              <p
+                class="flex justify-center text-[#EEAC06] font-medium text-base pt-12 pb-8">
+                FIND SUBJECT
+              </p>
               <h2
                 class="text-5xl font-normal items-center flex max-[425px]:text-2xl max-[768px]:text-4xl justify-center text-black mb-4 max-[425px]:mb-2 max-[425px]:justify-center max-[425px]:text-center">
                 Find your
@@ -831,37 +834,278 @@
             <div class="">
               <!-- part 1  -->
               <div
-                class="h-[219px] flex justify-between items-end pb-4 min-w-[320px] bg-[#FDF8F4] rounded-tl-xl rounded-tr-xl mx-auto mt-10">
-                <div class="">
-                  <h1 class="">h1</h1>
-                </div>
-                <div class="">
-                  <h1 class="">h2</h1>
-                </div>
-                <div class="">
-                  <h1 class="">h3</h1>
-                </div>
-                <div class="">
-                  <h1 class="">h4</h1>
+                class="h-[250px] flex justify-between overflow-hidden items-end min-w-[320px] bg-[#FDF8F4] rounded-tl-xl rounded-tr-xl mx-auto mt-10">
+                <div class="sliderAuto">
+                  <div class="slider_track">
+                    <!--All slide 9 -->
+                    <!-- slide 1 -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img
+                            src="./HomeShekho/graphic-design 1.png"
+                            alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Graphic Design
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 2  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/database 1.png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Computer Science
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 3  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/brainstorming 1.png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Machine Learning
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 4  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/book 1.png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Writing & Reading
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 5  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/ux-design 1.png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Laravel Development
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 6  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/vector (2) 1.png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Maping
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 7  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/chat 1.png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          HTML & CSS
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 8  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/idea 1 (1).png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          General Science
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 9  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img
+                            src="./HomeShekho/pi-mathematical-constant-symbol 1.png"
+                            alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Math or Science
+                        </h1>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- part 2  -->
               <div
-                class="h-[219px] flex justify-between pt-4 min-w-[320px] bg-[#FDF8F4] rounded-bl-xl rounded-br-xl mx-auto">
-                <div class="">
-                  <h1 class="">h1</h1>
-                </div>
-                <div class="">
-                  <h1 class="">h2</h1>
-                </div>
-                <div class="">
-                  <h1 class="">h3</h1>
-                </div>
-                <div class="">
-                  <h1 class="">h4</h1>
-                </div>
-                <div class="">
-                  <h1 class="">h5</h1>
+                class="h-[250px] flex justify-between overflow-hidden items-end min-w-[320px] bg-[#FDF8F4] rounded-bl-xl rounded-br-xl mx-auto">
+                <div class="sliderAuto">
+                  <div class="slider_track">
+                    <!--All slide 9 -->
+                    <!-- slide 1 -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img
+                            src="./HomeShekho/graphic-design 1.png"
+                            alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Graphic Design
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 2  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/database 1.png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Computer Science
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 3  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/brainstorming 1.png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Machine Learning
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 4  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/book 1.png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Writing & Reading
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 5  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/ux-design 1.png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Laravel Development
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 6  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/vector (2) 1.png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Maping
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 7  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/chat 1.png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          HTML & CSS
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 8  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img src="./HomeShekho/idea 1 (1).png" alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          General Science
+                        </h1>
+                      </div>
+                    </div>
+
+                    <!-- slide 9  -->
+                    <div class="slide">
+                      <div
+                        class="slideImg bg-white h-[152px] w-[295px] rounded-md flex flex-col justify-center items-center text-center">
+                        <div
+                          class="h-[65px] w-[65px] bg-[#ECF8FB] flex justify-center items-center">
+                          <img
+                            src="./HomeShekho/pi-mathematical-constant-symbol 1.png"
+                            alt="#" />
+                        </div>
+                        <h1 class="text-black font-semibold text-lg mt-2">
+                          Math or Science
+                        </h1>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

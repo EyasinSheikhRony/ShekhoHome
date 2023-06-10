@@ -1,6 +1,6 @@
 // @ts-nocheck
 
-// Slider
+// Click Slider
 const slider = document.querySelectorAll(".slide");
 var count = 0;
 console.log(count);
