@@ -141,3 +141,12 @@ a {
   height: 100%;
   object-fit: cover;
 }
+
+#subscribe .subText::placeholder {
+  background: #e8edfb;
+  color: #316aff !important;
+}
+
+.f_link:hover a {
+  color: #3266f8;
+}
